@@ -1,0 +1,12 @@
+/tmp/opencode/monodetour-repro/TargetLib/bin/Release/net11.0/TargetLib.deps.json
+/tmp/opencode/monodetour-repro/TargetLib/bin/Release/net11.0/TargetLib.dll
+/tmp/opencode/monodetour-repro/TargetLib/bin/Release/net11.0/TargetLib.pdb
+/tmp/opencode/monodetour-repro/TargetLib/obj/Release/net11.0/TargetLib.GeneratedMSBuildEditorConfig.editorconfig
+/tmp/opencode/monodetour-repro/TargetLib/obj/Release/net11.0/TargetLib.AssemblyInfoInputs.cache
+/tmp/opencode/monodetour-repro/TargetLib/obj/Release/net11.0/TargetLib.AssemblyInfo.cs
+/tmp/opencode/monodetour-repro/TargetLib/obj/Release/net11.0/TargetLib.csproj.CoreCompileInputs.cache
+/tmp/opencode/monodetour-repro/TargetLib/obj/Release/net11.0/TargetLib.dll
+/tmp/opencode/monodetour-repro/TargetLib/obj/Release/net11.0/refint/TargetLib.dll
+/tmp/opencode/monodetour-repro/TargetLib/obj/Release/net11.0/TargetLib.pdb
+/tmp/opencode/monodetour-repro/TargetLib/obj/Release/net11.0/ref/TargetLib.dll
+/tmp/opencode/monodetour-repro/TargetLib/obj/Release/net11.0/TargetLib.csproj.Up2Date

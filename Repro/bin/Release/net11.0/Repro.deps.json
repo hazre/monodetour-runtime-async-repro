@@ -1,0 +1,251 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v11.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v11.0": {
+      "Repro/1.0.0": {
+        "dependencies": {
+          "HarmonyX": "2.16.1",
+          "MonoDetour": "0.7.18",
+          "MonoDetour.Interop.HarmonyX": "0.7.18",
+          "TargetLib": "1.0.0",
+          "0Harmony": "2.16.1.0"
+        },
+        "runtime": {
+          "Repro.dll": {}
+        }
+      },
+      "Mono.Cecil/0.11.6": {
+        "runtime": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0",
+            "localPath": "Mono.Cecil.Mdb.dll"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0",
+            "localPath": "Mono.Cecil.Pdb.dll"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0",
+            "localPath": "Mono.Cecil.Rocks.dll"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0",
+            "localPath": "Mono.Cecil.dll"
+          }
+        }
+      },
+      "MonoDetour/0.7.18": {
+        "dependencies": {
+          "MonoMod.RuntimeDetour": "25.4.0-prerelease.3"
+        },
+        "runtime": {
+          "lib/net9.0/com.github.MonoDetour.Bindings.Reorg.dll": {
+            "assemblyVersion": "0.7.18.0",
+            "fileVersion": "0.7.18.0",
+            "localPath": "com.github.MonoDetour.Bindings.Reorg.dll"
+          },
+          "lib/net9.0/com.github.MonoDetour.Reflection.dll": {
+            "assemblyVersion": "0.7.18.0",
+            "fileVersion": "0.7.18.0",
+            "localPath": "com.github.MonoDetour.Reflection.dll"
+          },
+          "lib/net9.0/com.github.MonoDetour.dll": {
+            "assemblyVersion": "0.7.18.0",
+            "fileVersion": "0.7.18.0",
+            "localPath": "com.github.MonoDetour.dll"
+          }
+        }
+      },
+      "MonoDetour.Interop.HarmonyX/0.7.18": {
+        "dependencies": {
+          "HarmonyX": "2.16.1"
+        },
+        "runtime": {
+          "lib/net9.0/com.github.MonoDetour.Interop.HarmonyX.dll": {
+            "assemblyVersion": "0.7.18.0",
+            "fileVersion": "0.7.18.0",
+            "localPath": "com.github.MonoDetour.Interop.HarmonyX.dll"
+          }
+        }
+      },
+      "MonoMod.Backports/1.1.2": {
+        "dependencies": {
+          "MonoMod.ILHelpers": "1.1.0"
+        },
+        "runtime": {
+          "lib/net8.0/MonoMod.Backports.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0",
+            "localPath": "MonoMod.Backports.dll"
+          }
+        }
+      },
+      "MonoMod.Core/1.4.0-prerelease.3": {
+        "dependencies": {
+          "Mono.Cecil": "0.11.6",
+          "MonoMod.Backports": "1.1.2",
+          "MonoMod.ILHelpers": "1.1.0",
+          "MonoMod.Utils": "25.1.0-prerelease.3"
+        },
+        "runtime": {
+          "lib/net11.0/MonoMod.Core.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0",
+            "localPath": "MonoMod.Core.dll"
+          }
+        }
+      },
+      "MonoMod.ILHelpers/1.1.0": {
+        "runtime": {
+          "lib/net8.0/MonoMod.ILHelpers.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0",
+            "localPath": "MonoMod.ILHelpers.dll"
+          }
+        }
+      },
+      "MonoMod.RuntimeDetour/25.4.0-prerelease.3": {
+        "dependencies": {
+          "Mono.Cecil": "0.11.6",
+          "MonoMod.Backports": "1.1.2",
+          "MonoMod.Core": "1.4.0-prerelease.3",
+          "MonoMod.ILHelpers": "1.1.0",
+          "MonoMod.Utils": "25.1.0-prerelease.3"
+        },
+        "runtime": {
+          "lib/net11.0/MonoMod.RuntimeDetour.dll": {
+            "assemblyVersion": "25.4.0.0",
+            "fileVersion": "25.4.0.0",
+            "localPath": "MonoMod.RuntimeDetour.dll"
+          }
+        }
+      },
+      "MonoMod.Utils/25.1.0-prerelease.3": {
+        "dependencies": {
+          "Mono.Cecil": "0.11.6",
+          "MonoMod.Backports": "1.1.2",
+          "MonoMod.ILHelpers": "1.1.0"
+        },
+        "runtime": {
+          "lib/net11.0/MonoMod.Utils.dll": {
+            "assemblyVersion": "25.1.0.0",
+            "fileVersion": "25.1.0.0",
+            "localPath": "MonoMod.Utils.dll"
+          }
+        }
+      },
+      "HarmonyX/2.16.1": {
+        "dependencies": {
+          "MonoMod.RuntimeDetour": "25.4.0-prerelease.3"
+        },
+        "runtime": {
+          "0Harmony.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "TargetLib/1.0.0": {
+        "runtime": {
+          "TargetLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "0Harmony/2.16.1.0": {
+        "runtime": {
+          "0Harmony.dll": {
+            "assemblyVersion": "2.16.1.0",
+            "fileVersion": "2.16.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Repro/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mono.Cecil/0.11.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f33RkDtZO8VlGXCtmQIviOtxgnUdym9xx/b1p9h91CRGOsJFxCFOFK1FDbVt1OCf1aWwYejUFa2MOQyFWTFjbA==",
+      "path": "mono.cecil/0.11.6",
+      "hashPath": "mono.cecil.0.11.6.nupkg.sha512"
+    },
+    "MonoDetour/0.7.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7Xsp+I8e2gaB30mG3gl5a5nokZ8nzWw854s9vWXy3XVLek/mZc1qja2Zyd9v5kHvWGVw3ERZ+xj6lXGGCxL3XA==",
+      "path": "monodetour/0.7.18",
+      "hashPath": "monodetour.0.7.18.nupkg.sha512"
+    },
+    "MonoDetour.Interop.HarmonyX/0.7.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uSjBuQ3N0KaLm/Cuc0up9Fu4E8xDgUlucjdvpDpSPDySqCnLrqr44T67yS8f9fq5AcIBglfWtiToo+EIkowqcQ==",
+      "path": "monodetour.interop.harmonyx/0.7.18",
+      "hashPath": "monodetour.interop.harmonyx.0.7.18.nupkg.sha512"
+    },
+    "MonoMod.Backports/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-baYlNy8n8kmaNhNvqmZ/dIPOeO1r9//dG1i2WbunMWtWZ2EKtIgmXaS+ZzphzTsikkGnoD4Jwr5g0TVdpDjgpw==",
+      "path": "monomod.backports/1.1.2",
+      "hashPath": "monomod.backports.1.1.2.nupkg.sha512"
+    },
+    "MonoMod.Core/1.4.0-prerelease.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vkNdBJE22jytY+b3HO5MvmaFM+mbCOCdRSRNhDTbMmENZ/yb2C2SvkT/8CMdeDoHbn5uy1dhaoWIlk4nbtP+RA==",
+      "path": "monomod.core/1.4.0-prerelease.3",
+      "hashPath": "monomod.core.1.4.0-prerelease.3.nupkg.sha512"
+    },
+    "MonoMod.ILHelpers/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L2FWjhTrv7tcIxshfZ+M3OcaNr4cNw0IwiVZEgwqRnZ5QAN3+RrNJ8ZwCzwXUWyPDqooJxMcjjg8PsSYUiNBjQ==",
+      "path": "monomod.ilhelpers/1.1.0",
+      "hashPath": "monomod.ilhelpers.1.1.0.nupkg.sha512"
+    },
+    "MonoMod.RuntimeDetour/25.4.0-prerelease.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PTSrqv7kOV0fZDau7V/zgttrPEOffPvODEDUyEOxdZNdoreCkngI7uCPzvuhHXGkLVJ2yC/osClpocgxluH3w==",
+      "path": "monomod.runtimedetour/25.4.0-prerelease.3",
+      "hashPath": "monomod.runtimedetour.25.4.0-prerelease.3.nupkg.sha512"
+    },
+    "MonoMod.Utils/25.1.0-prerelease.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lco0KrcqziDkP6oquZfg7tJZQrAFqfGfb9RTbPNG9SbCu3LHg7ioulbtEIihaiKTcxP3BKK67VCLzJxmz+Pf9g==",
+      "path": "monomod.utils/25.1.0-prerelease.3",
+      "hashPath": "monomod.utils.25.1.0-prerelease.3.nupkg.sha512"
+    },
+    "HarmonyX/2.16.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TargetLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "0Harmony/2.16.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

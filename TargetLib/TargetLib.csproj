@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <!-- Required for runtime-async IL (MethodImpl.Async / 0x2000). -->
+    <Features>$(Features);runtime-async=on</Features>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+</Project>

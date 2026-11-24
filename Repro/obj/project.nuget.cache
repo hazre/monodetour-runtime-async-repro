@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "uQRjTf136t8=",
+  "success": true,
+  "projectFilePath": "/tmp/opencode/monodetour-repro/Repro/Repro.csproj",
+  "expectedPackageFiles": [
+    "/home/haz/.cache/NuGetPackages/mono.cecil/0.11.6/mono.cecil.0.11.6.nupkg.sha512",
+    "/home/haz/.cache/NuGetPackages/monodetour/0.7.18/monodetour.0.7.18.nupkg.sha512",
+    "/home/haz/.cache/NuGetPackages/monodetour.interop.harmonyx/0.7.18/monodetour.interop.harmonyx.0.7.18.nupkg.sha512",
+    "/home/haz/.cache/NuGetPackages/monomod.backports/1.1.2/monomod.backports.1.1.2.nupkg.sha512",
+    "/home/haz/.cache/NuGetPackages/monomod.core/1.4.0-prerelease.3/monomod.core.1.4.0-prerelease.3.nupkg.sha512",
+    "/home/haz/.cache/NuGetPackages/monomod.ilhelpers/1.1.0/monomod.ilhelpers.1.1.0.nupkg.sha512",
+    "/home/haz/.cache/NuGetPackages/monomod.runtimedetour/25.4.0-prerelease.3/monomod.runtimedetour.25.4.0-prerelease.3.nupkg.sha512",
+    "/home/haz/.cache/NuGetPackages/monomod.utils/25.1.0-prerelease.3/monomod.utils.25.1.0-prerelease.3.nupkg.sha512",
+    "/home/haz/.cache/NuGetPackages/harmonyx/2.16.1/harmonyx.2.16.1.nupkg.sha512"
+  ],
+  "logs": []
+}
